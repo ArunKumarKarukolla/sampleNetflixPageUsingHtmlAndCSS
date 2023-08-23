@@ -1,0 +1,66 @@
+/* styles.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/*sign-in-button,
+.language-button {
+  background-color: transparent;
+  border: none;
+  color: #e50914;
+  cursor: pointer;
+  margin-left: 15px;
+}*/
+
+main {
+  text-align: center;
+}
+
+h1 {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.get-started-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.get-started-button {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.sign-in-button {
+  padding: 5px 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
